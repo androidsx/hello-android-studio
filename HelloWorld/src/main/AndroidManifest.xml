@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidsx.helloworld"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:label="Hello Android Studio">
+
+        <!-- The launcher activity -->
+        <activity
+            android:name="com.androidsx.helloworld.MainActivity"
+            android:label="Hello Android Studio" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity defined in the library module -->
+        <activity android:name="com.androidsx.library.LibraryActivity" />
+    </application>
+</manifest>
