@@ -1,0 +1,13 @@
+# Gradle
+.gradle/
+
+# IntelliJ
+.idea/
+
+# Build folders
+HelloWorld/build/
+MyLibrary/build/
+
+# Android specific
+local.properties
+
